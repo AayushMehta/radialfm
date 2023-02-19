@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 :root {
   --bg-blue: #3171f6;
@@ -97,25 +98,63 @@ a {
   cursor: pointer;
 }
 
-.get-access-btn::hover {
+/* .get-access-btn::hover {
   box-shadow: ;
+} */
+
+/* .mobile-photo img {
+  .photos {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  } */
+.photos {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  /* width: 80%; */
+  height: 100vh;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
-.mobile-photo {
-  height: 1200px;
-  width: 90%;
-  margin: 0 auto;
-  background: lightgray;
-  /* margin-top: 5rem; */
+.photos > * {
+  display: inline;
+  margin: auto 0;
+}
+
+.mobile-img {
+  position: relative;
+}
+
+.photo-1 {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+.photo-3 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.height {
+  height: 100vh;
+  width: 25vw;
 }
 
 .fresh {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.2rem;
   /* padding: 24px 0px; */
   font-size: 2rem;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .fresh h1:last-child {
@@ -126,9 +165,12 @@ a {
   display: grid;
   grid: 1fr 1fr 1fr / 1fr 1fr;
   gap: 1rem;
-  margin-top: 5rem;
+  justify-self: center;
+  /* margin: 0 auto; */
+  margin-top: 1rem;
   margin-bottom: 5rem;
-  padding: 4rem;
+  padding: 5rem;
+  /* padding-left: 5rem; */
 }
 
 .gridd-1,
@@ -137,10 +179,27 @@ a {
 .gridd-4,
 .gridd-5,
 .gridd-6 {
+  justify-content: center;
   height: 560px;
   width: 560px;
-  background-color: grey;
+  object-fit: fill;
 }
+
+img {
+  border-radius: 20px;
+  height: 560px;
+  width: 560px;
+}
+
+/* .gridd-2,
+.gridd-3,
+.gridd-6 {
+  padding-top: 4rem;
+} */
+
+/* .headphone {
+  width: 440px;
+} */
 
 .black {
   background-color: black;
@@ -150,7 +209,7 @@ a {
   width: 100%;
   margin: 5rem 0rem;
   height: 5rem;
-  /* margin-top: 30px; */
+  margin-top: 5rem;
 }
 
 .connect {
