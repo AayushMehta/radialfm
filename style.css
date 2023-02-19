@@ -148,18 +148,17 @@ a {
 
 .radial-transparent-img {
   width: 100%;
-  margin: 3rem 0rem;
+  margin: 5rem 0rem;
   height: 5rem;
   /* margin-top: 30px; */
 }
 
 .connect {
-  margin-top: 5rem;
+  margin: 5rem 0rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
   font-size: 1.5rem;
-  padding-bottom: 5rem;
 }
 
 footer {
