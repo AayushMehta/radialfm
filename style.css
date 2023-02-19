@@ -106,7 +106,7 @@ a {
   height: 1200px;
   width: 90%;
   margin: 0 auto;
-  outline: 1px solid red;
+  background: lightgray;
 }
 
 .fresh {
