@@ -1,13 +1,26 @@
-.* {
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
+:root {
+  --bg-blue: #3171f6;
+  --bg-grey: #333;
+  --lightgrey: #f2f2f2;
+  --black: #111;
+  --white: white;
+}
 
-.container {
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .container {
+  width: 100vw;
   max-width: 70vw;
   margin: 0 auto;
-}
+} */
 
 .text-center {
   text-align: center;
@@ -16,22 +29,142 @@
 .radial-img {
   width: 100%;
   height: 1.5rem;
-  padding: 1.5rem 0rem;
+  margin-top: 30px;
 }
 
-.heading h1 {
-  font-weight: bolder;
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 40px;
+}
+
+.title {
   font-size: 5rem;
-  margin: 2rem;
 }
 
-.heading p {
-  font-weight: bolder;
-  font-size: 1.2rem;
+.subtitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: -10px;
 }
 
 .get-access {
   text-align: center;
 }
+
 .get-access-input {
+  padding: 25px;
+  width: 27%;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  color: grey;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.bg-light-grey {
+  background: var(--lightgrey);
+}
+
+.bg-grey {
+  background: var(--bg-grey);
+  /* background: red; */
+}
+
+.bg-blue {
+  background: var(--bg-blue);
+}
+
+.color-b {
+  color: var(--black);
+}
+
+.color-w {
+  color: var(--white);
+}
+
+.get-access-btn {
+  padding: 25px;
+  width: 17%;
+  margin-left: 5px;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  /* background-color: var(--bg-blue); */
+  cursor: pointer;
+}
+
+.get-access-btn::hover {
+  box-shadow: ;
+}
+
+.mobile-photo {
+  height: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.fresh {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  /* padding: 24px 0px; */
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.fresh h1:last-child {
+  color: #3171f6;
+}
+
+.gridd {
+  display: grid;
+  grid: 1fr 1fr 1fr / 1fr 1fr;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 4rem;
+}
+
+.gridd-1,
+.gridd-2,
+.gridd-3,
+.gridd-4,
+.gridd-5,
+.gridd-6 {
+  height: 560px;
+  width: 560px;
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.radial-transparent-img {
+  width: 100%;
+  margin: 3rem 0rem;
+  height: 5rem;
+  /* margin-top: 30px; */
+}
+
+.connect {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+footer {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
 }
