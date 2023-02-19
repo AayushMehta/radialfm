@@ -35,7 +35,7 @@ a {
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   padding: 40px;
 }
 
@@ -94,7 +94,6 @@ a {
   outline: none;
   font-size: 1rem;
   font-weight: bold;
-  /* background-color: var(--bg-blue); */
   cursor: pointer;
 }
 
@@ -107,6 +106,7 @@ a {
   width: 90%;
   margin: 0 auto;
   background: lightgray;
+  /* margin-top: 5rem; */
 }
 
 .fresh {
