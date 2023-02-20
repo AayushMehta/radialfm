@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 20px;
+  height: 560px;
+  width: 560px;
+}
+
+.main-img {
+  width: 450px;
+  height: 450px;
+  /* padding-inline-start: 20px; */
+  border-radius: 50%;
+  border: 10px solid red;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.img-container {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  border: 10px solid red;
+  overflow: hidden;
+}
+
+.img-container img {
+  height: 360px;
+  width: 360px;
+  padding: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
